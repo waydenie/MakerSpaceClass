@@ -22,8 +22,7 @@ static const uint8_t dice[6][6] = {
   {LED2,LED3,LED4,LED5,LED6,LED7}
 };
 
-int sw_pb_cur=HIGH;
-int sw_pb_prev=HIGH;
+int sw_pb=HIGH;
 
 void setup() {
   pinMode(LED1, OUTPUT);
@@ -40,9 +39,8 @@ void setup() {
 }
 
 void loop() {
-  sw_pb_cur = digitalRead(SW_PB);
-  if ( ( sw_pb_cur != sw_pb_prev ) && ( sw_pb_cur = HIGH ) ) {  //CHECK '='
-    sw_pb_prev=sw_pb_cur;
+  sw_pb = digitalRead(SW_PB);
+  if ( sw_pb == LOW ) {
     int diceRoll = random(0,6);
     for (int i=0; i<7; i++) { digitalWrite(dice_LEDs[i],LOW); }                // turn off all LEDs
     for (int i=0; i<=diceRoll; i++) { digitalWrite(dice[diceRoll][i], HIGH); } // turn on LEDs for diceRoll
