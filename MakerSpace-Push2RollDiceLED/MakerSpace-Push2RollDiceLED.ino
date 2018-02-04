@@ -45,7 +45,7 @@ void loop() {
     for (int i=0; i<7; i++) { digitalWrite(dice_LEDs[i],LOW); }                // turn off all LEDs
     for (int i=0; i<=diceRoll; i++) { digitalWrite(dice[diceRoll][i], HIGH); } // turn on LEDs for diceRoll
   }
-  delay (15);
+  delay (25);
 }
 
 
