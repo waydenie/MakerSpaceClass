@@ -3,14 +3,15 @@
 */
 
 // Define PINs
-#define SW_PB  2
-#define LED1   3
-#define LED2   4
-#define LED3   5
-#define LED4   6
-#define LED5   9
-#define LED6   10
-#define LED7   11
+#define ANT_NOISE A0
+#define SW_PB     2
+#define LED1      3
+#define LED2      4
+#define LED3      5
+#define LED4      6
+#define LED5      9
+#define LED6      10
+#define LED7      11
 
 static const uint8_t dice_LEDs[] = {LED1,LED2,LED3,LED4,LED5,LED6,LED7};
 static const uint8_t dice[6][6] = {
