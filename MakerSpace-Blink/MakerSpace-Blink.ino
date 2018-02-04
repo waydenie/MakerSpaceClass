@@ -23,7 +23,7 @@ static const uint8_t dice[6][6] = {
   {LED2,LED3,LED4,LED5,LED6,LED7}
 };
 
-int toggle_LED=1;
+int sw_pb=HIGH;
 
 void setup() {
   pinMode(LED1, OUTPUT);
@@ -33,12 +33,12 @@ void setup() {
 }
 
 void loop() {
-  if (toggle_LED == 0) {
+  if (sw_pb == LOW) {
     digitalWrite(LED1, HIGH); // turn the LED on
     delay(500);               // wait 
   }
   digitalWrite(LED1, LOW);    // turn the LED off
   delay(500);                   // wait
-  toggle_LED=digitalRead(SW_PB);
+  sw_pb=digitalRead(SW_PB);
 }
 
