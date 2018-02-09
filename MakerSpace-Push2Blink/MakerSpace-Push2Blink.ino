@@ -1,5 +1,5 @@
 /*
-  Blink Center Dice LED
+  Blink with PushButton Enable
 */
 
 // Define PINs
@@ -23,16 +23,22 @@ static const uint8_t dice[6][6] = {
   {LED2,LED3,LED4,LED5,LED6,LED7}
 };
 
+int sw_pb=HIGH;
+
 void setup() {
   pinMode(LED1, OUTPUT);
+  pinMode(SW_PB,INPUT);
 
   Serial.begin(9600);
 }
 
 void loop() {
-  digitalWrite(LED1, HIGH);    // turn the LED on
-  delay(500);                  // wait 
-  digitalWrite(LED1, LOW);     // turn the LED off
-  delay(500);                  // wait
+  if (sw_pb == LOW) {
+    digitalWrite(LED1, HIGH); // turn the LED on
+    delay(500);               // wait 
+  }
+  digitalWrite(LED1, LOW);    // turn the LED off
+  delay(500);                   // wait
+  sw_pb=digitalRead(SW_PB);
 }
 
