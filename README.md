@@ -1,4 +1,4 @@
-# MakerSpace Intro to Arduino - March 2018
+# MakerSpace Intro to Arduino Workshop - March 2018
 ![Dice Roller Schematic](https://github.com/waydenie/MakerSpaceClass/blob/master/dice_schem.png "Dice Roller Schematic")
 
 ## Resources:
@@ -22,10 +22,10 @@ Git https://git-scm.com/
 Git Client downloads: https://git-scm.com/download
 
 GitHub https://github.com/
-Class Project files: https://github.com/waydenie/MakerSpaceClass
+Workshop Project files: https://github.com/waydenie/MakerSpaceClass
 
-### Arduino
+### Arduino IDE
 
-Cloud: https://create.arduino.cc/
-Desktop: https://www.arduino.cc/en/Main/Software
+Cloud IDE: https://create.arduino.cc/
+Desktop IDE: https://www.arduino.cc/en/Main/Software
 
