@@ -8,8 +8,8 @@ https://github.com/waydenie/MakerSpaceClass
 
 ## What is Arduino? [ https://arduino.cc/ ]
 
-Introduction https://arduino.cc/en/Guide/Introduction
-Where do I start? https://arduino.cc/en/Guide/HomePage
+Introduction https://arduino.cc/en/Guide/Introduction  
+Where do I start? https://arduino.cc/en/Guide/HomePage  
 
 ## Project Ideas
 https://create.arduino.cc/projecthub
@@ -18,14 +18,14 @@ https://create.arduino.cc/projecthub
 
 ### Source Control
 
-Git https://git-scm.com/ 
-Git Client downloads: https://git-scm.com/download
+Git https://git-scm.com/  
+Git Client downloads: https://git-scm.com/download  
 
-GitHub https://github.com/
-Workshop Project files: https://github.com/waydenie/MakerSpaceClass
+GitHub https://github.com/  
+Workshop Project files: https://github.com/waydenie/MakerSpaceClass  
 
 ### Arduino IDE
 
-Cloud IDE: https://create.arduino.cc/
-Desktop IDE: https://www.arduino.cc/en/Main/Software
+Cloud IDE: https://create.arduino.cc/  
+Desktop IDE: https://www.arduino.cc/en/Main/Software  
 
